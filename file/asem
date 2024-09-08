@@ -1,0 +1,7 @@
+
+REPO="https://raw.githubusercontent.com/wayangkulit95/1/main/file/"
+
+
+
+wget -q -O /etc/default/dropbear "${REPO}/dropbear.conf"
+chmod +x /etc/default/dropbear
